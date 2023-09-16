@@ -1,6 +1,6 @@
 package Project;
 import java.util.ArrayList;
-import java.util.Locale;
+
 import java.util.Scanner;
 public class DictionaryManagement {
     private ArrayList<Word> Dictionary = new ArrayList<>();
