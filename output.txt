@@ -1,0 +1,6 @@
+No   | English | Vietnamese
+1  | Apple  | Tao      
+2  | Bear   | Gau      
+3  | Cock   | Buoi     
+4  | Year   | Fuck     
+5  | Yo     | Lia      
