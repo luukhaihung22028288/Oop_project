@@ -1,10 +1,16 @@
 package Project;
-
+import java.util.Scanner;
 public class DictionaryCommandline {
-    public void dictionaryBasic()
-    {
-        DictionaryManagement d= new DictionaryManagement();
-        d.insertFromCommandline();
+
+    public static void main(String[] args) {
+        DictionaryManagement d = new DictionaryManagement();
+        d.dictionaryinsertFromFile();
         d.showAllWords();
+        d.insertFromCommandline();
+       // Scanner input=new Scanner(System.in);
+       // String s=input.nextLine();
+
+        d.dictionaryExportToFile();
+
     }
 }
